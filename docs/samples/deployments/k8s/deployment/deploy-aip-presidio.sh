@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# You'll want to change your kubectl context to point to dev or preprod or prod before running this script.
+
+
 REGISTRY=${1:-mcr.microsoft.com}
 TAG=${2:-latest}
 RELEASE=${3:-basic}
